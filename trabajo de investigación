@@ -1,0 +1,28 @@
+EJEMPLO DE FOR
+for (var i = 0; i < 9; i++) {
+  n += i;
+  mifuncion(n);
+}
+
+EJEMPLO DE WHILE
+var frase = "";
+var n = 1;
+while (n < 10) 
+	{ 
+	frase += "El valor de n es " + n + "<br>"; 
+	n++;
+	}
+document.writeln(frase);
+
+EJEMPLO DE IF
+if (dia == "lunes") 
+   document.write ("Que tengas un feliz comienzo de semana")
+   
+EJEMPLO CON CASE
+switch (expresion) {
+  case 1:
+   //este código se ejecutará si el caso coincide con la expresión
+    break;
+  case 2:
+   //este código se ejecutará si el caso coincide con la expresión
+    break;
